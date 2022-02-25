@@ -1,6 +1,7 @@
 import {useState, useReducer,useEffect, useCallback, useMemo, useRef} from 'react';
 import {Container} from 'react-bootstrap';
 import NewComponent from './newComponent';
+import Hoc from './Hoc';
 import './App.css';
 
 const countTotal = (num) => {
@@ -206,6 +207,7 @@ function App() {
 
         <Form/>
         <NewComponent/>
+        <Hoc/>
     </>
 
     
